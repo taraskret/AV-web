@@ -26,6 +26,8 @@ app.get('/second', (req, res)=>{
 app.get('/third', (req, res)=>{
     res.render('third')
 })
-app.listen(3000, ()=>{
+
+
+app.listen(process.env.PORT || 3000, ()=>{
     console.log('...listen port 3000... AV');
 })
