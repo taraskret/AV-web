@@ -1,0 +1,73 @@
+<%- include('includes/head.ejs')%>
+
+<body>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Album example</h1>
+        <p class="lead text-muted">You are able to see the list of project I resently completed with all photos atached</p>
+        <p>
+          <a href="/" class="btn btn-primary my-2">Main call to action</a>
+          <a href="/" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col"  >
+          <div class="card shadow-sm">
+            <a href="/first"><img src="images/bto.jpg"   class="bd-placeholder-img card-img-top "  width="100%" height="315"  aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>1111</title><rect width="100%" height="100%"   /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Clayton, Vic, Australia</text></img> </a>
+            <div class="card-body " >
+              <p class="card-text">This is a wider card .</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="/first"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col"  >
+            <div class="card shadow-sm">
+              <a href="/second"><img src="images/3268.jpg"   class="bd-placeholder-img card-img-top "  width="100%" height="100%"  aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>1111</title><rect width="100%" height="100%"   /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Delahey, Vic, Australia</text></img> </a>
+              <div class="card-body " >
+                <p class="card-text">This is a wider card .</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="/second"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <a href="/third"><img src="images/3272.jpg"   class="bd-placeholder-img card-img-top "  width="100%" height="100%"  aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>1111</title><rect width="100%" height="100%"   /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Preston, Vic, Australia</text></img> </a>
+            <div class="card-body " >
+              <p class="card-text">This is a wider card .</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="/third"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<%- include('includes/footer.ejs') %>
